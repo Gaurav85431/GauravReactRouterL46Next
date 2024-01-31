@@ -1,0 +1,36 @@
+.navbar {
+  text-align: right;
+  color: red;
+}
+.navbar li {
+  display: inline-block;
+  padding: 10px 5px;
+}
+
+/* Providing  css to each list item of navbar */
+.nav-bar-link {
+  color: black;
+  text-decoration: dotted;
+  /* text-decoration:none; */
+}
+
+.nav-bar-link:hover {
+  color: green;
+  font-size: 1.2rem;
+}
+
+/* giving style to active link */
+
+/* Home me hm inline style dekar colr lagaye hai. */
+/* 1st way */
+
+.active {
+  color: aqua;
+  background-color: blue;
+}
+
+/* agar active override ho jaye to hm aise likh denge */
+/* .navbar .active {
+  color: rgb(12, 243, 243);
+  background-color: rgb(17, 17, 241);
+} */
